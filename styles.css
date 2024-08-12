@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main, button {
+    font-family: "Overpass", sans-serif;
+}
+
+.main-content {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(216, 12%, 8%);
+}
+.rating-state {
+    border: 1px solid black;
+    border-radius: 16px;
+    width: 400px;
+    background-color: hsl(213, 19%, 18%);
+    color: white;
+    padding: 20px;
+}
+.icon-img {
+    background-color: hsl(213, 19%, 23%);
+    display: inline-block;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.rating-state h1 {
+    margin: 16px 0 10px;
+    font-weight: 700;
+}
+.rating-state > p {
+    color: hsl(217, 12%, 63%);
+    line-height: 1.5;
+}
+.ratings {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 32px 0;
+}
+.rate {
+    width: 50px;
+    height: 50px;
+    background-color: hsl(213, 19%, 23%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 16px;
+    color: hsl(217, 12%, 63%);
+}
+.rate:hover {
+    background: hsl(25, 97%, 53%);
+    color: white;
+    cursor: pointer;
+}
+.selected {
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+.submit-btn {
+    width: 100%;
+    height: 50px;
+    border-radius: 40px;
+    border: none;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+.submit-btn:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+.thank-state {
+    display: none;
+    border-radius: 16px;
+    width: 400px;
+    background-color: hsl(213, 19%, 18%);
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.thank-state img {
+    margin: 32px 0;
+}
+.thank-state .output-container {
+    background-color: hsl(213, 19%, 23%);
+    padding: 8px 24px;
+    border-radius: 40px;
+    color: hsl(25, 97%, 53%);
+    margin-bottom: 32px;
+    display: inline-block;
+}
+.thank-state p {
+    color: hsl(217, 12%, 63%);
+    line-height: 1.5;
+    text-align: center;
+    margin: 16px 0 32px;
+}
+
+@media screen and (max-width: 400px) {
+    .rating-state, .thank-state {
+        width: 80%;
+    }
+    .icon-img {
+        width: 35px;
+        height: 35px;
+    }
+    .rate {
+        width: 35px;
+        height: 35px;
+        font-size: 13px;
+    }
+}
