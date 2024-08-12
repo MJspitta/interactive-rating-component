@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Interactive Rating Component Solution](https://www.frontendmentor.io/solutions/interactive-rating-component-qtj0ha630x)
+- Live Site URL: [Interactive Rating Component Live](https://mjspitta.github.io/interactive-rating-component/)
 
 ## My process
 
@@ -45,6 +45,6 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@MJspitta](https://www.frontendmentor.io/profile/MJspitta)
+- Twitter / X - [@madu_jang](https://x.com/madu_jang)
 
